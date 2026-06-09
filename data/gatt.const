@@ -1,0 +1,36 @@
+#define HANDLE_PROTOCOL_MODE                                 3
+#define HANDLE_REPORT                                        5
+#define HANDLE_REPORT_CLIENT_CHAR_CONFIG                     6
+#define HANDLE_REPORT_MAP                                    8
+#define HANDLE_BOOT_KEYBOARD_INPUT_REPORT                    10
+#define HANDLE_BOOT_KEYBOARD_INPUT_REPORT_CLIENT_CHAR_CONFIG   11
+#define HANDLE_BOOT_KEYBOARD_OUTPUT_REPORT                   13
+#define HANDLE_BOOT_MOUSE_INPUT_REPORT                       15
+#define HANDLE_BOOT_MOUSE_INPUT_REPORT_CLIENT_CHAR_CONFIG    16
+#define HANDLE_HID_INFORMATION                               18
+#define HANDLE_HID_CONTROL_POINT                             20
+
+#define HANDLE_PROTOCOL_MODE_OFFSET                          31
+#define HANDLE_REPORT_OFFSET                                 52
+#define HANDLE_REPORT_CLIENT_CHAR_CONFIG_OFFSET              60
+#define HANDLE_REPORT_MAP_OFFSET                             83
+#define HANDLE_BOOT_KEYBOARD_INPUT_REPORT_OFFSET             104
+#define HANDLE_BOOT_KEYBOARD_INPUT_REPORT_CLIENT_CHAR_CONFIG_OFFSET   112
+#define HANDLE_BOOT_KEYBOARD_OUTPUT_REPORT_OFFSET            135
+#define HANDLE_BOOT_MOUSE_INPUT_REPORT_OFFSET                156
+#define HANDLE_BOOT_MOUSE_INPUT_REPORT_CLIENT_CHAR_CONFIG_OFFSET   164
+#define HANDLE_HID_INFORMATION_OFFSET                        187
+#define HANDLE_HID_CONTROL_POINT_OFFSET                      208
+
+#define HANDLE_DEVICE_NAME                                   3
+#define HANDLE_GENERIC_INPUT                                 6
+#define HANDLE_GENERIC_OUTPUT                                8
+#define HANDLE_GENERIC_OUTPUT_CLIENT_CHAR_CONFIG             9
+
+#define HANDLE_DEVICE_NAME_OFFSET                            31
+#define HANDLE_GENERIC_INPUT_OFFSET                          111
+#define HANDLE_GENERIC_OUTPUT_OFFSET                         160
+#define HANDLE_GENERIC_OUTPUT_CLIENT_CHAR_CONFIG_OFFSET      168
+
+
+

@@ -1,0 +1,97 @@
+{
+ "watchdog": true,
+ "bundle_meta": {
+  "var": {
+   "link_layer_features": {
+    "value": "ff71ff07fe000000",
+    "addr": 33726688
+   }
+  },
+  "rom": {
+   "size": 173396,
+   "base": 33562624
+  },
+  "ram": {
+   "size": 21276,
+   "base": 536870912
+  },
+  "app": {
+   "base": 33738752
+  },
+  "version": [
+   20,9,0]
+ },
+ "tc_dir": "C:\/Keil_v5\/uv4",
+ "eflash_addr": "0x42000",
+ "ide_ver": "5",
+ "ide_exe": "C:\/Keil_v5\/uv4\/uv4.exe",
+ "use_uart_trace": false,
+ "ota": false,
+ "ide": "keil",
+ "git": false,
+ "use_segger_rtt": false,
+ "trace_port": "disable",
+ "trace_mask": "",
+ "scan_data": "\/\/ 0x01 - \u00abFlags\u00bb\r\n1, 0x01,\r\n\r\n\/\/ Total size = 2 bytes\r\n",
+ "priv_addr": "GAP_RANDOM_ADDRESS_OFF",
+ "enable_hci_log": false,
+ "ota_ver_minor": "0",
+ "ota_ver_major": "1",
+ "template": "C:\\Users\\roiki\\AppData\\Roaming\\Local\\Program\\ING_SDK\\Wizard\\templates\\typical\\peripheral",
+ "coding_adv": false,
+ "key_incode": true,
+ "series": "ING208xx",
+ "proj_name": "peripheral_practice_project",
+ "sdk_release_path": "C:\/Users\/roiki\/AppData\/Roaming\/Local\/Program\/ING_SDK\/sdk",
+ "printf_port": "uart0",
+ "security": false,
+ "legacy_adv": true,
+ "adv_data": "\/\/ 0x01 - \u00abFlags\u00bb\r\n1, 0x01,\r\n\r\n\/\/ Total size = 2 bytes\r\n",
+ "use_eflash": false,
+ "wizard_dir": "C:\/Users\/roiki\/AppData\/Roaming\/Local\/Program\/ING_SDK\/Wizard",
+ "key_addr": "0x44000",
+ "trace_enable": false,
+ "pb_adv": true,
+ "is_sdk_path_rel": false,
+ "pb_gatt": true,
+ "deep_sleep": true,
+ "proj_dir": "D:\\ORLANDO\\keil_v5\\peripheral_practice_project",
+ "heap_size": 200,
+ "power_saving": true,
+ "secondary": false,
+ "bundle": "typical",
+ "app_rom_size": "339968",
+ "app_rom_addr": "33738752",
+ "family": "ing20",
+ "vcode": false,
+ "heap_override": false,
+ "trace_mask_nim": "",
+ "gatt_value_offset": {
+  "key": "HANDLE_HID_CONTROL_POINT_OFFSET",
+  "value": "208"
+ },
+ "io_cap": "IO_CAPABILITY_NO_INPUT_NO_OUTPUT",
+ "role": "peripheral",
+ "noos": false,
+ "mesh": {
+  "lowpower": true,
+  "friend": true,
+  "relay": true,
+  "proxy": true
+ },
+ "keil": true,
+ "cmsis": "C:\/Users\/roiki\/AppData\/Roaming\/Local\/Program\/ING_SDK\/Wizard\/CMSIS",
+ "cube": true,
+ "app_ram_size": 19680,
+ "app_ram_addr": 536892192,
+ "k5_cc_ver": "6",
+ "use_irq_table": false,
+ "printf_enable": true,
+ "gatt_handle": {
+  "key": "HANDLE_HID_CONTROL_POINT",
+  "value": "20"
+ },
+ "ota_ver_patch": "1",
+ "profile_data": "\/\/ Service Human Interface Device: 1812\r\n0x0A, 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x28,\r\n0x12, 0x18, \r\n\/\/ Characteristic Protocol Mode: 2A4E\r\n0x0D, 0x00, 0x02, 0x00, 0x02, 0x00, 0x03, 0x28,\r\n0x06, 0x03, 0x00, 0x4E, 0x2A, \r\n0x08, 0x00, 0x06, 0x00, 0x03, 0x00, 0x4E, 0x2A,\r\n\/\/ Characteristic Report: 2A4D\r\n0x0D, 0x00, 0x02, 0x00, 0x04, 0x00, 0x03, 0x28,\r\n0x1E, 0x05, 0x00, 0x4D, 0x2A, \r\n0x08, 0x00, 0x1E, 0x00, 0x05, 0x00, 0x4D, 0x2A,\r\n\/\/ Descriptor Client Characteristic Configuration: 2902\r\n0x0A, 0x00, 0x0A, 0x01, 0x06, 0x00, 0x02, 0x29,\r\n0x00, 0x00, \r\n\/\/ Characteristic Report Map: 2A4B\r\n0x0D, 0x00, 0x02, 0x00, 0x07, 0x00, 0x03, 0x28,\r\n0x02, 0x08, 0x00, 0x4B, 0x2A, \r\n0x08, 0x00, 0x02, 0x00, 0x08, 0x00, 0x4B, 0x2A,\r\n\/\/ Characteristic Boot Keyboard Input Report: 2A22\r\n0x0D, 0x00, 0x02, 0x00, 0x09, 0x00, 0x03, 0x28,\r\n0x12, 0x0A, 0x00, 0x22, 0x2A, \r\n0x08, 0x00, 0x12, 0x00, 0x0A, 0x00, 0x22, 0x2A,\r\n\/\/ Descriptor Client Characteristic Configuration: 2902\r\n0x0A, 0x00, 0x0A, 0x01, 0x0B, 0x00, 0x02, 0x29,\r\n0x00, 0x00, \r\n\/\/ Characteristic Boot Keyboard Output Report: 2A32\r\n0x0D, 0x00, 0x02, 0x00, 0x0C, 0x00, 0x03, 0x28,\r\n0x0E, 0x0D, 0x00, 0x32, 0x2A, \r\n0x08, 0x00, 0x0E, 0x00, 0x0D, 0x00, 0x32, 0x2A,\r\n\/\/ Characteristic Boot Mouse Input Report: 2A33\r\n0x0D, 0x00, 0x02, 0x00, 0x0E, 0x00, 0x03, 0x28,\r\n0x12, 0x0F, 0x00, 0x33, 0x2A, \r\n0x08, 0x00, 0x12, 0x00, 0x0F, 0x00, 0x33, 0x2A,\r\n\/\/ Descriptor Client Characteristic Configuration: 2902\r\n0x0A, 0x00, 0x0A, 0x01, 0x10, 0x00, 0x02, 0x29,\r\n0x00, 0x00, \r\n\/\/ Characteristic HID Information: 2A4A\r\n0x0D, 0x00, 0x02, 0x00, 0x11, 0x00, 0x03, 0x28,\r\n0x02, 0x12, 0x00, 0x4A, 0x2A, \r\n0x08, 0x00, 0x02, 0x00, 0x12, 0x00, 0x4A, 0x2A,\r\n\/\/ Characteristic HID Control Point: 2A4C\r\n0x0D, 0x00, 0x02, 0x00, 0x13, 0x00, 0x03, 0x28,\r\n0x04, 0x14, 0x00, 0x4C, 0x2A, \r\n0x08, 0x00, 0x04, 0x00, 0x14, 0x00, 0x4C, 0x2A,\r\n\r\n0x00,0x00\r\n\/\/ total size = 210\r\n\r\n\/\/ HANDLE_PROTOCOL_MODE=3\r\n\/\/ HANDLE_REPORT=5\r\n\/\/ HANDLE_REPORT_CLIENT_CHAR_CONFIG=6\r\n\/\/ HANDLE_REPORT_MAP=8\r\n\/\/ HANDLE_BOOT_KEYBOARD_INPUT_REPORT=10\r\n\/\/ HANDLE_BOOT_KEYBOARD_INPUT_REPORT_CLIENT_CHAR_CONFIG=11\r\n\/\/ HANDLE_BOOT_KEYBOARD_OUTPUT_REPORT=13\r\n\/\/ HANDLE_BOOT_MOUSE_INPUT_REPORT=15\r\n\/\/ HANDLE_BOOT_MOUSE_INPUT_REPORT_CLIENT_CHAR_CONFIG=16\r\n\/\/ HANDLE_HID_INFORMATION=18\r\n\/\/ HANDLE_HID_CONTROL_POINT=20\r\n\r\n\/\/ HANDLE_PROTOCOL_MODE_OFFSET=31\r\n\/\/ HANDLE_REPORT_OFFSET=52\r\n\/\/ HANDLE_REPORT_CLIENT_CHAR_CONFIG_OFFSET=60\r\n\/\/ HANDLE_REPORT_MAP_OFFSET=83\r\n\/\/ HANDLE_BOOT_KEYBOARD_INPUT_REPORT_OFFSET=104\r\n\/\/ HANDLE_BOOT_KEYBOARD_INPUT_REPORT_CLIENT_CHAR_CONFIG_OFFSET=112\r\n\/\/ HANDLE_BOOT_KEYBOARD_OUTPUT_REPORT_OFFSET=135\r\n\/\/ HANDLE_BOOT_MOUSE_INPUT_REPORT_OFFSET=156\r\n\/\/ HANDLE_BOOT_MOUSE_INPUT_REPORT_CLIENT_CHAR_CONFIG_OFFSET=164\r\n\/\/ HANDLE_HID_INFORMATION_OFFSET=187\r\n\/\/ HANDLE_HID_CONTROL_POINT_OFFSET=208\r\n",
+ "coding_profile": false
+}
