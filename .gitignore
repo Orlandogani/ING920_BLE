@@ -1,0 +1,31 @@
+# ---- Keil MDK build output ----
+output/
+listing/
+*.bin
+*.hex
+*.axf
+*.elf
+
+# Object / dependency / listing files
+*.o
+*.d
+*.crf
+*.lst
+*.lnp
+*.sct
+*.dep
+*.htm
+*.build_log.htm
+
+# ---- Keil user-specific / generated state ----
+# Window layout, breakpoints, per-user options — not portable across machines
+*.uvguix.*
+*.uvopt
+*.uvoptx
+*.bak
+*.scvd
+
+# ---- Editor / OS noise ----
+.vscode/
+.DS_Store
+Thumbs.db
